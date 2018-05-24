@@ -1,6 +1,7 @@
+import os
 import time
 
-from seleniumq.try_selenium import *
+from .seleniumq import *
 
 # Задаем путь к драйверу Google Chrome
 path = os.getcwd().replace("seleniumq", "drivers") + os.sep + "windows_x32" + os.sep + "chromedriver.exe"
