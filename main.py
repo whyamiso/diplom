@@ -2,10 +2,8 @@ import os
 import time
 
 from PIL import Image
-from selenium.webdriver.support.ui import WebDriverWait
 
 from selenium import webdriver
-from seleniumq import seleniumq
 from pdf_maker import create_pdf_from_images
 from GUI.gui import GUI
 
